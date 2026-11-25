@@ -1,0 +1,5 @@
+PASS normal: 18/100 -> 81/100; Rising distress
+PASS failure: 20/100 -> 74/100; Prediction mismatch
+PASS recovery: 76/100 -> 14/100; Falling indicators
+PASS missing: 27/100 -> 41/100; Interrupted audio
+PASS all four JSON exports, reset, no JavaScript errors
