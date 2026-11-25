@@ -1,2 +1,23 @@
-# A2-PROJECT-REPORT
-Repository for A2 Project Report during year 3 of University Of Birmingham - Computer Science and Engineering
+# Real-Time Voice Emotion Analysis
+
+Project status: offline interactive simulation only. Four fictional calls demonstrate rising distress, a fear/frustration mismatch, falling distress, and missing audio. No microphone, real model, personal data or external services. Scores are illustrative and not emergency risk.
+
+Prose word count: 227 (including headings)
+
+## Run
+Open index.html in a modern browser. Select a scenario, play or step through segments, request clarification, record observations, then inspect and export the completed review. Reset clears the session.
+
+## Technology
+HTML, CSS, JavaScript and SVG. Playwright and Chromium are optional for automated tests.
+
+## Development record
+- Initial replay: timeline, weighted concern score, confidence warnings and correction log.
+- Experimental microphone integration was attempted in an earlier revision but not verified end to end.
+- Current revision removes microphone and model dependencies, adds recovery and missing-input scenarios, gap-aware plotting, distinct outcome summaries and missing-input warnings.
+- Browser tests executed for all four scenarios, exports, reset, low confidence and preserved observations. See development/test-results.txt. Tests do not validate emotion accuracy or usability.
+
+## AI assistance
+ChatGPT assisted with the prototype, report, diagrams and test scripts. Automated browser checks verified the listed interactions; the student should inspect the code, replay each scenario and verify course references before submission.
+
+## Additional files
+Diagrams and storyboards contain SVG sequences and browser screenshots. development/test_browser.py runs tests with Playwright and installed Chromium; adjust the executable path for your machine. No API keys are required.
