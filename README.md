@@ -17,7 +17,7 @@ HTML, CSS, JavaScript and SVG. Playwright and Chromium are optional for automate
 - Browser tests executed for all four scenarios, exports, reset, low confidence and preserved observations. See development/test-results.txt. Tests do not validate emotion accuracy or usability.
 
 ## AI assistance
-ChatGPT assisted with the prototype and test scripts.
+ChatGPT assisted with the prototype and test scripts. I checked the system and test cases and confirmed that it/they were feasible and consistent with my report. 
 
 ## Additional files
 Diagrams and storyboards contain sequences and browser screenshots.
