@@ -2,13 +2,13 @@
 
 Project status: offline interactive simulation only. Four fictional calls demonstrate rising distress, a fear/frustration mismatch, falling distress, and missing audio. No microphone, real model, personal data or external services. Scores are illustrative and not emergency risk.
 
-Prose word count: 227 (including headings)
+Prose word count: 202 (including headings)
 
 ## Run
-Open index.html in a modern browser. Select a scenario, play or step through segments, request clarification, record observations, then inspect and export the completed review. Reset clears the session.
+Open Voice Emotion System.html in a browser. Select a scenario, play or step through segments, request clarification, record observations, then inspect and export the completed review. Reset clears the session.
 
 ## Technology
-HTML, CSS, JavaScript and SVG. Playwright and Chromium are optional for automated tests.
+HTML, CSS, JavaScript. Playwright and Chromium are optional for automated tests.
 
 ## Development record
 - Initial replay: timeline, weighted concern score, confidence warnings and correction log.
